@@ -892,6 +892,14 @@ border-radius: 5px;
 overflow: auto;
 }
 
+/* WP */
+.no-width-limit .wp-block-column {
+width: auto !important;
+max-width: none !important;
+flex-basis: auto !important;
+flex-grow: 0 !important;
+}
+
 
 
 
@@ -1053,4 +1061,8 @@ min-width: 80%;
 display: block;
 }
 
+/* WP */
+.is-layout-flex.smp-block {
+display: block !important;
+}
 }

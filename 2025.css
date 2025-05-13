@@ -900,6 +900,12 @@ max-width: none !important;
 flex-basis: auto !important;
 flex-grow: 0 !important;
 }
+.grecaptcha-badge {
+visibility: hidden;
+}
+#autozip {
+display: none !important;
+}
 
 
 

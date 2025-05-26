@@ -902,6 +902,14 @@ visibility: hidden;
 #autozip {
 display: none !important;
 }
+.wp-block-list {
+list-style: initial;
+margin: revert;
+padding: revert;
+}
+ol.wp-block-list {
+list-style-type: decimal;
+}
 
 
 

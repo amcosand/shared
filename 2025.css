@@ -192,10 +192,6 @@ small {font-size: 70%;}
 .f58 {font-size: 5.8rem;}
 .f59 {font-size: 5.9rem;}
 .f60 {font-size: 6rem;}
-.stroke {
--webkit-text-stroke: 1px; 
-text-stroke: 1px;
-}
 .v-rl {
 writing-mode: vertical-rl;
 }

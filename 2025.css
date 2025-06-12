@@ -920,7 +920,7 @@ aspect-ratio: 16 / 9;
 
 
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 1023px) {
 
 /* set
 ------------------------------------------------------------ */
@@ -983,7 +983,7 @@ writing-mode: horizontal-tb;
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 540px) {
 
 /* set
 ------------------------------------------------------------ */

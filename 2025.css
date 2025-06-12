@@ -1056,6 +1056,10 @@ table.smp-block td {
 width: 100%;
 display: block;
 }
+.w10 img {width: 10%;}
+.w20 img {width: 20%;}
+.w30 img {width: 30%;}
+.w40 img {width: 40%;}
 .w50 img {width: 50%;}
 .w60 img {width: 60%;}
 .w70 img {width: 70%;}

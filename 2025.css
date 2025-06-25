@@ -1043,10 +1043,10 @@ order: 1;
 
 /* style */
 .smp-center {
-text-align: center;
+text-align: center !important;
 }
 .smp-left {
-text-align: left;
+text-align: left !important;
 }
 table.smp-block {
 display: table;

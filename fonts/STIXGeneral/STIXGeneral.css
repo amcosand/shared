@@ -1,1 +1,15 @@
+@font-face {
+  font-family: 'STIXGeneral';
+  src: url('STIXGeneral-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'STIXGeneral';
+  src: url('STIXGeneral-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

@@ -24,10 +24,10 @@ Last Updated: 2025.8.3
 :root {
 --design-width: 1366;
 --font-size-base: clamp(8.75px, calc(10 * 100vw / var(--design-width)), 11.25px);
+--color-text: #000;
 --font-base: "Noto Sans JP", sans-serif;
 --font-min: "Noto Serif JP", serif;
 --font-en: "Roboto", sans-serif;
---color-text: #000;
 }
 * {
 margin: 0;
@@ -40,8 +40,8 @@ font-size: var(--font-size-base);
 body {
 -webkit-text-size-adjust: 100%;
 font-family: var(--font-base);
-font-size: 1.6rem;
 color: var(--color-text);
+font-size: 1.6rem;
 font-weight: 500;
 }
 ul,ol {

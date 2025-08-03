@@ -22,10 +22,9 @@ Last Updated: 2025.7.31
 /* set
 ------------------------------------------------------------ */
 :root {
---design-width: 1366;
 --font-size-base: clamp(
 	14px,
-	calc(16 * 100vw / var(--design-width)),
+	calc(16 * 100vw / 1366),
 	18px
 );
 --font-base: "Noto Sans JP", sans-serif;

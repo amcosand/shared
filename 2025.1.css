@@ -22,11 +22,7 @@ Last Updated: 2025.7.31
 /* set
 ------------------------------------------------------------ */
 :root {
---font-size-base: clamp(
-	14px,
-	calc(16 * 100vw / 1366),
-	18px
-);
+--font-size-base: clamp(14px, calc(100vw * 16 / 1366), 18px);
 --font-base: "Noto Sans JP", sans-serif;
 --font-min: "Noto Serif JP", serif;
 --font-en: "Roboto", sans-serif;

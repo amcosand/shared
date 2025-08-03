@@ -2,7 +2,7 @@
 /*
 Version: 1.1.0
 Creation Date: 2025.4.30
-Last Updated: 2025.7.31
+Last Updated: 2025.8.3
 */
 
 
@@ -22,7 +22,8 @@ Last Updated: 2025.7.31
 /* set
 ------------------------------------------------------------ */
 :root {
---font-size-base: clamp(14px, calc(100vw * 16 / 1366), 18px);
+--design-width: 1366;
+--font-size-base: clamp(8.75px, calc(10 * 100vw / var(--design-width)), 11.25px);
 --font-base: "Noto Sans JP", sans-serif;
 --font-min: "Noto Serif JP", serif;
 --font-en: "Roboto", sans-serif;
@@ -39,6 +40,7 @@ font-size: var(--font-size-base);
 body {
 -webkit-text-size-adjust: 100%;
 font-family: var(--font-base);
+font-size: 1.6rem;
 color: var(--color-text);
 font-weight: 500;
 }
@@ -220,8 +222,7 @@ width: 100%;
 position: relative;
 }
 section {
-width: 1200px;
-max-width: 92%;
+width: 100%;
 margin: 0 auto;
 position: relative;
 }

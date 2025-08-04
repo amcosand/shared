@@ -8,6 +8,22 @@
 
 @font-face {
   font-family: 'STIXGeneral';
+  src: url('STIXGeneral-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STIXGeneral';
+  src: url('STIXGeneral-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STIXGeneral';
   src: url('STIXGeneral-BoldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;

@@ -2,7 +2,7 @@
 /*
 Version: 1.1.0
 Creation Date: 2025.4.30
-Last Updated: 2025.8.4
+Last Updated: 2025.8.5
 */
 
 
@@ -616,7 +616,7 @@ right: 0;
 /* Triple Menu */
 #triple {
 display: none;
-background: #000;
+background: var(--color-primary, #000);
 color: #FFF;
 font-size: 1rem;
 width: 60px;
@@ -658,7 +658,7 @@ bottom: 0;
 z-index: 1;
 }
 #pagetop a {
-background: #000;
+background: var(--color-primary, #000);
 color: #FFF;
 font-size: 1rem;
 width: 60px;

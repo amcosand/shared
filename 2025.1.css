@@ -2,7 +2,7 @@
 /*
 Version: 1.1.0
 Creation Date: 2025.4.30
-Last Updated: 2025.8.5
+Last Updated: 2025.8.17
 */
 
 
@@ -24,9 +24,9 @@ Last Updated: 2025.8.5
 :root {
 --design-width: 1366;
 --font-size-base: clamp(8.75px, calc(10 * 100vw / var(--design-width)), 11.25px);
---font-base: "Noto Sans JP", sans-serif;
---font-min: "Noto Serif JP", serif;
---font-en: "Roboto", sans-serif;
+--font-base: 'Noto Sans JP', sans-serif;
+--font-min: 'Noto Serif JP', serif;
+--font-en: 'Roboto', sans-serif;
 --color-text: #000;
 }
 * {
@@ -50,7 +50,7 @@ list-style: none;
 hr {
 margin: 3rem 0;
 border: none;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid var(--color-text);
 }
 img {
 vertical-align: middle;

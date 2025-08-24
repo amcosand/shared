@@ -2,7 +2,7 @@
 /*
 Version: 1.1.0
 Creation Date: 2025.4.30
-Last Updated: 2025.8.17
+Last Updated: 2025.8.24
 */
 
 
@@ -992,6 +992,9 @@ text-align: center;
 .smd-left {
 text-align: left;
 }
+.smd-static {
+position: static;
+}
 .smd-h-tb {
 writing-mode: horizontal-tb;
 }
@@ -1071,6 +1074,9 @@ table.smp-block th,
 table.smp-block td {
 width: 100%;
 display: block;
+}
+.smp-static {
+position: static;
 }
 .w10 img {max-width: 10% !important;}
 .w20 img {max-width: 20% !important;}

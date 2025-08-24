@@ -993,7 +993,7 @@ text-align: center;
 text-align: left;
 }
 .smd-static {
-position: static;
+position: static !important;
 }
 .smd-h-tb {
 writing-mode: horizontal-tb;
@@ -1076,7 +1076,7 @@ width: 100%;
 display: block;
 }
 .smp-static {
-position: static;
+position: static !important;
 }
 .w10 img {max-width: 10% !important;}
 .w20 img {max-width: 20% !important;}

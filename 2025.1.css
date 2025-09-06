@@ -2,7 +2,7 @@
 /*
 Version: 1.1.0
 Creation Date: 2025.4.30
-Last Updated: 2025.8.24
+Last Updated: 2025.9.6
 */
 
 
@@ -281,10 +281,7 @@ display: flex;
 .flex.wrap {
 flex-wrap: wrap;
 }
-.col,
-.col-2,
-.col-3,
-.col-4 {
+[class*=col] {
 flex-wrap: wrap;
 justify-content: space-between;
 }
